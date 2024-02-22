@@ -9,13 +9,12 @@ public class equalizingNumbers {
         for (int i = 0; i < T ; i++) {
             int A = sc.nextInt();
             int B = sc.nextInt();
-            boolean flag = false ;
-            for (int d = 0; d < Math.max(A,B); d++) {
-                if ((A-d)==(B+d) || (A+d)==(B-d)) flag=true;
-                break;
-            }
-            if (flag==true) System.out.println("YES");
-            else System.out.println("No");
+            // A + d =  B -d => 2d = B - A  => d =( B -A) / 2
+            // A - d = B + d => 2d = A - B  => d = (A - B ) / 2
+            // because d is a integer than A - B should be divided by 2
+            int AB = Math.abs(A-B);
+            if (AB % 2 == 0 ) System.out.println("YES");
+            else System.out.println("NO");
 
 
         }
