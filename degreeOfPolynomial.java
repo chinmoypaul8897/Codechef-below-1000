@@ -1,7 +1,5 @@
-package codechef500to800Java;
+package codechef500to1000Java;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class degreeOfPolynomial {

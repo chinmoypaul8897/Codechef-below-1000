@@ -1,4 +1,4 @@
-package codechef500to800Java;
+package codechef500to1000Java;
 
 
 import java.util.Scanner;

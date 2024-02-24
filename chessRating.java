@@ -1,6 +1,5 @@
-package codechef500to800Java;
+package codechef500to1000Java;
 
-import java.util.IllegalFormatCodePointException;
 import java.util.Scanner;
 
 public class chessRating {
