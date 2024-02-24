@@ -1,4 +1,4 @@
-package codechef500to1000Java;
+package codechef500to800Java;
 import java.util.Scanner;
 public class bathInWinters {
     public static void main(String[] args) {
